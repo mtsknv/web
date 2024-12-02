@@ -1,0 +1,15 @@
+.header{ 
+  ul{
+    display: flex;  
+    gap: 20px  ;
+  }
+
+  li{
+    list-style: none;
+  }
+ 
+}
+
+.nav{
+  padding: 5px 10px;
+}
