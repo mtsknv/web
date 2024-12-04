@@ -19,7 +19,8 @@ function Header() {
             </li>)
           })}
         </ul>
-      </nav>}
+      </nav>
+       } 
     </div>
   );
 }

@@ -1,8 +1,8 @@
 import { Dispatch, SetStateAction, useEffect, useState } from 'react';
 import './dialog.css';
 import DialogItem from './DialogItem';
-import { IDialogData } from '../../types';
 import ApiService from '../../requests/API';
+import { IDialogData } from '../../types';
 
 function Dialog({ dialogData, setLoading }: { dialogData: IDialogData | null, setLoading: Dispatch<SetStateAction<boolean>> }) {
     const [checked, setChecked] = useState(false)

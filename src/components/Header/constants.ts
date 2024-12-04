@@ -1,5 +1,6 @@
 export const NAVBAR = [
+    // {src:'/',name: 'Auth'},
     {src:'/buttons',name: 'Buttons'},
-    {src:'/dialogs',name: 'Dialogs'},
+    {src:'/',name: 'Dialogs'},
     
 ]

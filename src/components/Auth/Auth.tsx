@@ -26,12 +26,12 @@ function Auth() {
 
     // Обработка успешного ответа
     console.log('Успешный вход:', response);
-    login()
+    // login()
     const token = response?.access_token
     if (token) {
       localStorage.setItem('authToken', token);
     }else{
-      localStorage.setItem('authToken', 'token');
+      // localStorage.setItem('authToken', 'token');
     }
   }
 

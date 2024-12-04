@@ -1,8 +1,8 @@
 import { Dispatch, SetStateAction } from 'react';
 import './list.css';
-import { IDialogMini } from '../../types';
 import ApiService from '../../requests/API';
 import { truncate } from './helper';
+import { IDialogMini } from '../../types';
 
 function ListItem({ item, setDialogData }: { item: IDialogMini, setDialogData: Dispatch<SetStateAction<any>> }) {
   const { instagram_id, last_message, username, gpt_enabled } = item

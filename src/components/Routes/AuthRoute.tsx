@@ -1,5 +1,5 @@
 import { Navigate, Outlet } from "react-router-dom"
-import { useAuth } from "../components/Auth/AuthContext";
+import { useAuth } from "../Auth/AuthContext";
 
 const AuthRoute = () =>{
     const { isAuthenticated } = useAuth();    
